@@ -1,0 +1,68 @@
+/* ==============CONNECT SECTION START===============  */
+.connect-information {
+    background: #EBE7E1;
+    padding: 30px 50px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+}
+
+.connect-info {
+    display: inline-block;
+}
+
+.connect-getting {
+    margin-top: 20px;
+}
+
+.connect-info-icon>span {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 10px;
+    color: #555;
+    text-transform: uppercase;
+}
+
+.connect-info-icon i {
+    color: #000;
+    font-size: 25px;
+}
+
+.google-map-connect iframe {
+    height: 450px;
+    width: 100%;
+}
+
+/* ==============CONNECT SECTION END===============  */
+
+/* Media Query */
+
+@media (min-width:200px) and (max-width:600px) {
+    .c-h2 {
+
+        font-size: 25px;
+    }
+}
+
+@media all and (min-width:200px) and (max-width:425px) {
+    .c-h2 {
+
+        font-size: 20px;
+    }
+
+    .connect-info {
+        display: inline-block;
+        font-size: 13px;
+    }
+}
+
+@media all and (min-width:200px) and (max-width:375px) {
+    .c-h2 {
+
+        font-size: 18px;
+    }
+
+    .connect-info {
+        display: inline-block;
+        font-size: 12px;
+    }
+}

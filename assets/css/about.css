@@ -1,0 +1,320 @@
+/* ===================ABOUT SECTION START============== */
+
+#about {
+    background-image: url('../images/about-page-header.png');
+    height: 100vh;
+    min-width: 100%;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+}
+
+.about-heading {
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    color: #fff;
+
+
+}
+
+
+/* ===================ABOUT SECTION START============== */
+.about-company {
+    margin-top: 30px;
+}
+
+.about-company h2 {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.about-company p {
+    font-size: 20px;
+    text-align: justify;
+}
+
+/* ===================ABOUT INFORAMTION SECTION START=================== */
+
+.creative-it-agency {
+    background-color: #0c0c0c;
+}
+
+.creative-it-agency img {
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+    display: block;
+    padding: 20px 0;
+}
+
+
+/* ===================ABOUT INFORAMTION SECTION END=================== */
+
+
+/* ================ LEADERS SECTION START================ */
+
+.info-card {
+    height: 500px;
+    width: 400px;
+    background: #fff;
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 4px 4px 5px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 4px 5px rgba(0, 0, 0, 0.25);
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+
+}
+
+.card-content {
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    position: relative;
+    top: -50px;
+
+}
+
+.name {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.prof {
+    font-size: 24px;
+    font-weight: 600;
+    color: #4D4A4A;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.devider {
+    width: 30%;
+    height: 2px;
+    background: #0c0c0c;
+    margin: 20px 0;
+
+}
+
+.socail-info {
+    -webkit-transition: 1s all ease;
+    -o-transition: 1s all ease;
+    transition: 1s all ease;
+
+}
+
+.socail-info a i {
+    color: #000;
+    height: 50px;
+    width: 50px;
+    background: #E4E4E4;
+    background: #E4E4E4;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    margin: 0 10px;
+    -webkit-transform: translateY(100px);
+    -ms-transform: translateY(100px);
+    transform: translateY(100px);
+    -webkit-transition: 1s ease;
+    -o-transition: 1s ease;
+    transition: 1s ease;
+}
+
+.socail-info a i:hover {
+
+    color: rgb(115, 255, 0);
+    -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+    background: #222;
+}
+
+.photo {
+    position: absolute;
+    background-image: url('../images/team/zakia-sultana.jpg');
+    height: 100%;
+    width: 100%;
+    bottom: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    -webkit-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+}
+
+.two {
+    background-image: url('../images/team/musabbir.jpg');
+
+}
+
+.three {
+    background-image: url('../images/team/md-sir.jpg');
+
+}
+
+.four {
+    background-image: url('../images/team/jashim.png');
+}
+
+.five {
+    background-image: url('../images/team/mahmudul-sir.jpg');
+
+}
+
+.six {
+    background-image: url('../images/team/suzana-esha.jpg');
+
+}
+
+.seven {
+    background-image: url('../images/team/Faruki.jpg');
+
+}
+
+.eight {
+    background-image: url('../images/team/rulin.jpg');
+
+}
+
+.nine {
+    background-image: url('../images/team/etrsg.png');
+
+}
+
+
+.info-card:hover .photo {
+    -webkit-transform: scale(0.6, 0.50) translateY(-220px);
+    -ms-transform: scale(0.6, 0.50) translateY(-220px);
+    transform: scale(0.6, 0.50) translateY(-220px);
+    border-radius: 50%;
+    background-size: 100% 100%;
+    -webkit-filter: drop-shadow(-3px -3px 2px rgba(255, 255, 255, 0.3)) drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.2)) drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.2));
+    filter: drop-shadow(-3px -3px 2px rgba(255, 255, 255, 0.3)) drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.2)) drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.2));
+}
+
+.info-card:hover .socail-info {
+    -webkit-transform: translateY(-100px);
+    -ms-transform: translateY(-100px);
+    transform: translateY(-100px);
+}
+
+.sub-info {
+    text-align: left;
+    width: 90%;
+    -webkit-clip-path: polygon(0 1%, 100% 0, 90% 80%, 1% 90%);
+    clip-path: polygon(0 1%, 100% 0, 90% 80%, 1% 90%);
+    padding: 10px;
+    -webkit-transition: 0.5s all ease-in-out;
+    -o-transition: 0.5s all ease-in-out;
+    transition: 0.5s all ease-in-out;
+    -webkit-transform: translateY(-100px);
+    -ms-transform: translateY(-100px);
+    transform: translateY(-100px);
+    left: 40px;
+    color: #fff;
+    background: rgba(2, 87, 9, 0.637);
+    position: relative;
+
+
+}
+
+.sub-info::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-clip-path: polygon(0 1%, 100% 0, 90% 80%, 1% 90%);
+    clip-path: polygon(0 1%, 100% 0, 90% 80%, 1% 90%);
+    height: 10%;
+    width: 100%;
+    background: rgb(2, 240, 53);
+
+}
+
+.sub-info h4 {
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: #dcdcdc;
+    text-transform: uppercase;
+}
+
+.info-card:hover .sub-info {
+    -webkit-transform: translateX(-500px);
+    -ms-transform: translateX(-500px);
+    transform: translateX(-500px);
+}
+
+/* ================ LEADERS SECTION END================ */
+
+
+/* Media Query */
+
+@media all and (min-width:200px) and (max-width: 575px) {
+    .about-company p {
+        font-size: 16px;
+        padding: 10px 20px;
+
+    }
+}
+
+@media all and (min-width:200px) and (max-width: 535px) {
+    .about-company p {
+        font-size: 16px;
+        padding: 10px 20px;
+
+    }
+
+    .c-h2 {
+        font-size: 18px;
+    }
+
+    .about-company h2 {
+        font-size: 22px;
+    }
+}
+
+@media all and (min-width:200px) and (max-width:375px) {
+    .fs-24 {
+        font-size: 18px !important;
+    }
+
+    .info-card {
+        height: 450px;
+        width: 350px;
+    }
+
+    .name {
+        font-size: 20px;
+    }
+
+    .prof {
+        font-size: 18px;
+    }
+
+    .sub-info h4 {
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+
+    .sub-info {
+        left: 36px;
+    }
+}

@@ -1,0 +1,496 @@
+/*     font-family: 'Poppins',sans-serif;    */
+
+/*     font-family: 'Open Sans',sans-serif;    */
+
+/* --------------- Global CSS ----------------- */
+.section-header {
+  padding: 50px 0px;
+  text-align: left;
+}
+
+.section-header h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  position: relative;
+  padding-bottom: 30px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.section-header h1::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100px;
+  height: 8px;
+  background: #000000;
+  bottom: 0;
+  left: 0;
+}
+
+.section-header h6 {
+  font-family: "Poppins", sans-serif;
+  font-size: 28px;
+  position: relative;
+  padding-top: 10px;
+  text-align: left;
+}
+
+@media all and (max-width: 1199px) {
+  .section-header {
+    padding: 40px 0px;
+  }
+
+  .section-header h1 {
+    font-size: 38px;
+    padding-bottom: 30px;
+  }
+}
+
+.slick-arrow::before {
+  font-size: 30px !important;
+  color: #000000 !important;
+}
+
+/* ==========COURSE SINGLE BANNER SECTION START============== */
+
+#course-single-banner {
+  background-image: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      from(rgba(0, 0, 0, 0)),
+      to(rgba(0, 0, 0, 0))
+    ),
+    url("../images/training/training-hero.png");
+  background-image: -o-linear-gradient(
+      bottom,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../images/training/training-hero.png");
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    url("../images/training/training-hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100% 90%;
+  background-attachment: fixed;
+  width: 100%;
+  height: 40vh;
+}
+
+/* ----------- Course Single About ---------------- */
+
+#course-single-about {
+  padding: 50px 0px;
+  background-color: #f6f6f6;
+}
+
+.course-single-about-img img {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+}
+
+.course-single-about-text,
+.course-single-about-pac {
+  padding-top: 40px;
+}
+
+.course-single-about-text {
+  padding-right: 100px;
+}
+
+.course-single-about-text .bio {
+  padding-top: 40px;
+}
+
+.course-single-about-text .bio h4 {
+  color: #000000;
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.course-single-about-text .bio p {
+  color: #000000;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.course-single-about-text .info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.course-single-about-text .info h4 {
+  color: #000000;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.course-single-about-text .info h4 span {
+  padding-left: 15px;
+}
+
+.course-single-about-text .info h4 span i {
+  font-size: 18px;
+}
+
+.course-single-about-text .first {
+  position: relative;
+}
+
+.course-single-about-text .first::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 2px;
+  height: 100%;
+  background: #000000;
+  top: 50%;
+  right: 0;
+  transform: translate(-50%, -50%);
+}
+
+.course-single-about-pac .price,
+.course-single-about-pac .categories {
+  position: relative;
+  padding-left: 20px;
+}
+
+.course-single-about-pac .price::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 2px;
+  height: 100%;
+  background: #000000;
+  top: 50%;
+  left: 0;
+  transform: translate(-50%, -50%);
+}
+
+.course-single-about-pac .categories::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 2px;
+  height: 100%;
+  background: #000000;
+  top: 50%;
+  left: 0;
+  transform: translate(-50%, -50%);
+}
+
+.course-single-about-pac .price {
+  display: flex;
+  justify-content: space-between;
+}
+
+.course-single-about-pac .categories {
+  margin-top: 80px;
+}
+
+.course-single-about-pac .price h5 {
+  color: #000000;
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  padding-top: 10px;
+}
+
+.course-single-about-pac .price a {
+  background-color: #000;
+  text-align: center;
+  padding: 10px;
+  color: #39ff14;
+  transition: 0.3s ease-in-out;
+}
+
+.course-single-about-pac .price a:hover {
+  color: #fff;
+}
+
+.course-single-about-pac .categories h6 {
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 5px;
+}
+
+.course-single-about-pac .categories h6::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100px;
+  height: 2px;
+  background: #000000;
+  bottom: 0;
+  left: 0;
+}
+
+.course-single-about-pac .categories ul {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.course-single-about-pac .categories li {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 5px 0;
+}
+
+@media all and (max-width: 1199px) {
+  .course-single-about-text,
+  .course-single-about-pac {
+    padding-top: 20px;
+  }
+
+  .course-single-about-text {
+    padding-right: 0px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .course-single-about-text {
+    padding-top: 30px;
+  }
+}
+
+/* ---------- #course-single-desc  -------------------- */
+
+#course-single-desc {
+  padding: 60px 0;
+  background-color: #fff;
+}
+
+.course-single-desc-text {
+  padding: 20px;
+}
+
+.course-single-desc-text p {
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+@media all and (max-width: 1199px) {
+  .course-single-desc-text {
+    padding: 10px;
+  }
+
+  .course-single-desc-text p {
+    font-size: 18px;
+  }
+}
+
+/* --------------#course-single-overview----------------- */
+
+#course-single-overview {
+  padding: 50px 0px;
+  background-color: #f6f6f6;
+}
+
+.course-single-overview-item {
+  padding: 25px;
+}
+
+.course-single-overview-item h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+
+.course-single-overview-item ul {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.course-single-overview-item li {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 5px 0;
+}
+
+/* ------------ Our Courses ------------------ */
+
+#our-courses {
+  padding: 50px 0;
+}
+
+.our-courses-box {
+  border: none !important;
+  border-radius: 25px;
+  margin: 15px;
+}
+
+.our-courses-box .card-img-top {
+  width: 100%;
+  height: auto;
+  border-radius: 25px;
+}
+
+.our-courses-box .card-body {
+  background-color: #262626;
+  border-radius: 25px;
+  margin-top: -50px;
+  padding: 20px 40px 20px 20px;
+}
+
+.our-courses-box .card-body .card-title {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+
+.our-courses-box .card-body .card-bottom {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.our-courses-box .card-body .card-bottom .icons i {
+  color: #fff;
+  padding: 0 5px;
+  font-size: 16px;
+}
+
+.our-courses-box .card-body .card-bottom .price span {
+  color: #fff;
+  font-size: 20px;
+}
+
+@media all and (max-width: 1199px) {
+  .our-courses-box .card-body .card-title {
+    font-size: 12px;
+  }
+
+  .our-courses-box .card-body .card-bottom .icons i {
+    font-size: 10px;
+  }
+
+  .our-courses-box .card-body .card-bottom .price span {
+    color: #fff;
+    font-size: 12px;
+  }
+
+  .our-courses-box .card-body .card-bottom {
+    padding-top: 20px;
+  }
+}
+
+/* ---------------------------- #course-single-review------------------ */
+
+#course-single-review {
+  padding: 50px 0px;
+  background-color: #f6f6f6;
+}
+
+.course-single-review-item-intro img {
+  width: 100px;
+  height: 100px;
+}
+
+.course-single-review-item-intro h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  padding-top: 10px;
+}
+
+.course-single-review-item-intro p i {
+  font-size: 14px;
+}
+
+.course-single-review-item-text p {
+  text-align: left;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 15px;
+}
+
+.course-single-review-item {
+  padding: 30px 10px;
+  position: relative;
+}
+
+.course-single-review-item::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: #ccc;
+  bottom: 0;
+  left: 0;
+}
+
+.course-single-review-item:last-child::after {
+  height: 0px;
+}
+
+/* --------- #course-single-comment ---------- */
+
+#course-single-comment {
+  padding: 50px 0 80px 0;
+}
+
+.course-single-comment-box .input-box {
+  padding: 20px;
+}
+
+.course-single-comment-box textarea {
+  width: 100%;
+  height: 300px;
+  width: 100%;
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid #7d7d7d;
+}
+
+.course-single-comment-box textarea::placeholder {
+  font-style: italic;
+}
+
+.course-single-comment-box input {
+  width: 100%;
+  padding: 20px;
+  margin: 10px 30px;
+  border: 1px solid #7d7d7d;
+}
+
+.course-single-comment-box .submit-button {
+  padding-top: 20px;
+}
+
+.course-single-comment-box .submit-button a {
+  background-color: #000;
+  text-align: center;
+  padding: 10px;
+  color: #39ff14;
+  margin-top: 50px;
+  margin-left: 10px;
+  transition: 0.3s ease-in-out;
+}
+
+.course-single-comment-box .submit-button a:hover {
+  color: #fff;
+}
+
+@media all and (max-width: 767px) {
+  .course-single-comment-box textarea {
+    margin: 0;
+  }
+
+  .course-single-comment-box input {
+    margin: 10px 0;
+  }
+}

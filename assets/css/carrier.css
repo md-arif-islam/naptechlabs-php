@@ -1,0 +1,212 @@
+/* ==============CARRIER-BANNER START===============  */
+#carrier-banner {
+    background-image: url('../images/dark-img.jpg');
+    min-height: 750px;
+    width: 100%;
+    background-attachment: fixed;
+}
+
+.c-heading {
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+}
+
+/* ==============CARRIER-BANNER START===============  */
+
+/* -==============WORK-CULTURE START===============  */
+
+.card,
+.card-header {
+    background-color: transparent !important;
+    border: 0 !important;
+    padding: 5px !important;
+    margin-bottom: 10px;
+}
+
+.card {
+    -webkit-box-shadow: 0 2px 25px 0 rgba(129, 129, 182, 0.18);
+    box-shadow: 0 2px 25px 0 rgba(129, 129, 182, 0.18);
+    border-radius: 5px;
+    position: relative;
+}
+
+.btn {
+    position: relative;
+}
+
+.btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 5px;
+    background-color: #d3d3d3 !important;
+}
+
+.btn-link {
+    cursor: auto !important;
+    font-family: 'Poppins',
+        sans-serif;
+    font-size: 24px !important;
+    font-weight: 500 !important;
+    color: #000 !important;
+    text-decoration: none !important;
+}
+
+.btn:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.card-body {
+    background-color: #f7f1f1;
+}
+
+/* 
+.btn-link::after {
+    content: '\2212';
+    width: 35px;
+    font-size: 25px;
+    border-radius: 5px;
+    text-align: center;
+    right: 15px;
+    top: 11px;
+    position: absolute;
+} */
+
+.btn-link.collapsed::after {
+    content: '\002b';
+}
+
+/* -==============WORK-CULTURE START===============  */
+
+
+/* ==============CARRIER-SECTOR START===============  */
+
+.carrier-box,
+.current-opening-carrier {
+    width: 350px;
+    height: 300px;
+    -webkit-box-shadow: -2px -2px 5px rgba(129, 129, 182, 0.18),
+        5px 5px 15px rgba(163, 163, 189, 0.18);
+    box-shadow: -2px -2px 5px rgba(129, 129, 182, 0.18),
+        5px 5px 15px rgba(163, 163, 189, 0.18);
+    background: #fff;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    -webkit-transition: 0.8s ease-in-out;
+    -o-transition: 0.8s ease-in-out;
+    transition: 0.8s ease-in-out;
+}
+
+.carrier-img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 300px;
+
+}
+
+.carrier-box:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/* ==============CARRIER-SECTOR END===============  */
+
+/* ==============CURRENT-OPENING START===============  */
+
+.current-opening-carrier {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+}
+
+.internship,
+.opening-carrier-sub-heading {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.opening-carrier-heading {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.apply-now {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.apply-now-btn {
+    height: 50px;
+    width: 200px;
+    border-radius: 5px;
+    background-color: #424242;
+    color: #ffff;
+    padding: 10px 25px;
+    -webkit-transition: 1s ease;
+    -o-transition: 1s ease;
+    transition: 1s ease;
+}
+
+.apply-now-btn:hover {
+
+    background-color: #fff;
+    color: #424242;
+
+}
+
+.current-opening-carrier:hover {
+    background-color: #27DC90;
+    color: #fff;
+}
+
+/* ==============CURRENT-OPENING END===============  */
+
+/* MEDIA QUERY */
+
+@media (min-width:200px) and (max-width:767px) {
+
+    .carrier-box,
+    .current-opening-carrier {
+        margin: 20px auto;
+    }
+
+    .c-heading {
+        font-size: 20px;
+    }
+
+    .btn-link {
+        font-size: 20px !important;
+    }
+}

@@ -1,0 +1,267 @@
+/*     font-family: 'Poppins',sans-serif;    */
+
+/*     font-family: 'Open Sans',sans-serif;    */
+
+
+
+/* ==========SERVICE-BANNER SECTION START============== */
+
+
+#service-banner {
+    background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.5))), url('../images/service-banner.jpg');
+    background-image: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('../images/service-banner.jpg');
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('../images/service-banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 90%;
+    background-attachment: fixed;
+
+}
+
+.service-banner-text {
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+
+}
+
+.service-banner-text h1 {
+    font-size: 36px;
+    font-weight: 700;
+
+}
+
+.service-banner-text h3 {
+    font-weight: 700;
+    margin-bottom: 20px;
+
+}
+
+.service-banner-text P {
+    font-size: 18px;
+    font-weight: 400;
+    float: left;
+}
+
+/* ==========SERVICE-BANNER SECTION END============== */
+
+/* ==========DEVELOPEMNET-PROCESS  SECTION START============== */
+
+#development-process .development-process-text,
+#developement-process-step {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#development-process .development-process-text .development-process-heading h1 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+#development-process .development-process-text .development-process-heading p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #545454;
+}
+
+/* ==========DEVELOPEMNET-PROCESS  SECTION END============== */
+
+
+/* ==========DEVELOPEMNET-PROCESS-STEP SECTION START============== */
+.step-heading .number {
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+
+}
+
+.number-one {
+    color: #6F1717;
+}
+
+.number-two {
+    color: #234CC0;
+}
+
+.number-three {
+    color: #23C06B;
+}
+
+.number-four {
+    color: #C7009B;
+}
+
+.number-five {
+    color: #004DA8;
+}
+
+.number-six {
+    color: #C02323;
+}
+
+.number-seven {
+    color: #036b32;
+}
+
+.step .step-info {
+    margin-bottom: 20px;
+}
+
+.step-heading h2 {
+    font-size: 24px;
+    font-weight: 600;
+    padding: 5px;
+    position: relative;
+    top: -10px;
+    left: 10px;
+}
+
+.step-paragraph p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+/* ==========DEVELOPEMNET-PROCESS-STEP SECTION END============== */
+
+/* ==========STRATEGY SECTION START============== */
+
+#strategy {
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.strategy-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.strategy-info .strategy-heading h1 {
+
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.strategy-list .strategy-list-circle {
+    margin: 20px 0;
+}
+
+.strategy-list h5 {
+    margin-left: 20px;
+}
+
+.list-one {
+    color: #0275D8;
+}
+
+.list-two {
+    color: #5CB85C;
+}
+
+.list-three {
+    color: #5BC0DE;
+}
+
+.list-four {
+    color: #F0AD4E;
+}
+
+.list-five {
+    color: #D9534F;
+}
+
+/* ==========STRATEGY SECTION END============== */
+
+
+/* MEDIA QUERY */
+
+
+@media all and (max-width:1399px) {
+    .service-banner-text h1 {
+        font-size: 38px;
+
+    }
+}
+
+@media all and (max-width:1199px) {
+    .service-banner-text h1 {
+        font-size: 32px;
+
+    }
+}
+
+@media all and (max-width:767px) {
+    #development-process .development-process-text .development-process-heading h1 {
+        font-size: 30px;
+    }
+
+    .service-banner-text h1 {
+        font-size: 26px;
+
+    }
+
+    .service-banner-text P {
+        font-size: 16px;
+    }
+}
+
+@media all and (max-width:512px) {
+
+    .service-banner-text h1 {
+        font-size: 22px;
+
+    }
+
+    .service-banner-text P {
+        font-size: 14px;
+    }
+}
+
+@media all and (max-width:767px) {
+    #development-process .development-process-text .development-process-heading h1 {
+        font-size: 26px;
+    }
+
+    #development-process .development-process-text .development-process-heading p {
+        font-size: 16px;
+    }
+
+
+}
+
+@media all and (max-width:445px) {
+    #development-process .development-process-text .development-process-heading h1 {
+        font-size: 20px;
+    }
+
+    #development-process .development-process-text .development-process-heading p {
+        font-size: 14px;
+    }
+
+
+    .step-paragraph p {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .strategy-info .strategy-heading h1 {
+        font-size: 20px;
+    }
+
+    .strategy-list h5 {
+        margin-left: 21px;
+        font-size: 15px;
+    }
+
+}
+
+@media all and (min-width:200px) and (max-width:395px) {
+    .step-heading .number {
+        font-size: 40px;
+    }
+
+    .step-heading h2 {
+        font-size: 20px;
+    }
+}
